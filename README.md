@@ -53,6 +53,7 @@ Kubernetes provides an internal DNS server, allowing WordPress to connect to MyS
 Clone the repository:
 
 git clone https://github.com/watchiMass/mini-projet-kubernetes.git
+
 cd mini-projet-kubernetes
 
 Deploy all manifests:
