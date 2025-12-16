@@ -4,11 +4,17 @@
 ## In this project, we will learn:
 
 Distributed application architecture (frontend and backend)
+
 Application deployment using deployment
+
 Data persistence management with PersistentVolume and PersistentVolumeClaim
+
 Securing sensitive information with Secrets
+
 Setting up network communication with services
+
 Exposing applications to the outside world with Nodeport
+
 
 ## Simplified application architecture :
 <img width="672" height="672" alt="diagkub" src="https://github.com/user-attachments/assets/4f8e1411-b351-44c8-965a-18a25e8808c7" />
@@ -59,18 +65,25 @@ cd mini-projet-kubernetes
 Deploy all manifests:
 
 kubectl apply -f . 
+
 ou 
+
 cd mysql
+
 kubectl apply -f . 
+
 cd wordpress
 
 cd mysql
+
 kubectl apply -f . 
 
 Check resource status:
 
 kubectl get pods
+
 kubectl get svc
+
 Accessing WordPress
 
 Retrieve the IP address of a Kubernetes node:
