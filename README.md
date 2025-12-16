@@ -60,7 +60,7 @@ Clone the repository:
 
 git clone https://github.com/watchiMass/mini-projet-kubernetes.git
 
-cd mini-projet-kubernetes
+cd mini-projet-kubernetes/
 
 Deploy all manifests:
 
@@ -73,8 +73,6 @@ cd mysql
 kubectl apply -f . 
 
 cd wordpress
-
-cd mysql
 
 kubectl apply -f . 
 
